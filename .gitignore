@@ -1,0 +1,28 @@
+# dependencies and builds
+node_modules/
+dist/
+
+# local config
+.env
+.env.*
+!.env.example
+*.local
+
+# logs
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# local visual checks
+qa/
+qa-*.html
+design-qa.md
