@@ -2,6 +2,8 @@
 
 A quiet, slightly dramatic live view of earthquakes around the planet.
 
+![Shakespot — a live earthquake globe](./public/og.png)
+
 Shakespot pulls the latest 24-hour earthquake feed from USGS and lays it over an interactive canvas globe. Pick an event, scrub through the day, or leave it open and let the Earth drift a little. The idle rotation is deliberately slow becuase a totally frozen planet felt kinda off.
 
 ## What it does
@@ -12,6 +14,14 @@ Shakespot pulls the latest 24-hour earthquake feed from USGS and lays it over an
 - Adds inertial dragging, animated quake pulses, and small interface reactions without turning the page into a light show
 - Works with a mouse, touch, or keyboard and respects reduced-motion settings
 - Falls back to clearly labelled demo events if the live feed cannot be reached
+
+## A closer look
+
+![Shakespot desktop view focused on the South Pacific](./docs/readme/shakespot-desktop.jpg)
+
+<p align="center">
+  <img src="./docs/readme/shakespot-mobile.jpg" width="340" alt="Shakespot mobile view with the earthquake timeline" />
+</p>
 
 ## Built with
 
